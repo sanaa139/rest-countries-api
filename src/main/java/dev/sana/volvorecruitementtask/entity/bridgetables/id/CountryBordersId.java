@@ -12,14 +12,12 @@ public class CountryBordersId implements Serializable {
     @Column(name = "border_id")
     private Integer borderId;
 
-
     public CountryBordersId(Integer countryId, Integer borderId) {
         this.countryId = countryId;
         this.borderId = borderId;
     }
 
-    public CountryBordersId() {
-    }
+    public CountryBordersId() {}
 
     public Integer getCountryId() {
         return countryId;

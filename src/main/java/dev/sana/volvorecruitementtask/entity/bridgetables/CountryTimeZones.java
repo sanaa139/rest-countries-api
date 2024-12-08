@@ -15,8 +15,7 @@ public class CountryTimeZones {
         this.id = id;
     }
 
-    public CountryTimeZones() {
-    }
+    public CountryTimeZones() {}
 
     public CountryTimeZonesId getId() {
         return id;

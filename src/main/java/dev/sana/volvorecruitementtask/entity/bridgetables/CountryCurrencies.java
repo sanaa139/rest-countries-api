@@ -15,8 +15,7 @@ public class CountryCurrencies {
         this.id = id;
     }
 
-    public CountryCurrencies() {
-    }
+    public CountryCurrencies() {}
 
     public CountryCurrenciesId getId() {
         return id;

@@ -17,8 +17,7 @@ public class CountryLanguagesId implements Serializable {
         this.languageId = languageId;
     }
 
-    public CountryLanguagesId() {
-    }
+    public CountryLanguagesId() {}
 
     public Integer getCountryId() {
         return countryId;

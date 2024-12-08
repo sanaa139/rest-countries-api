@@ -15,8 +15,7 @@ public class CountryCapitals {
         this.id = id;
     }
 
-    public CountryCapitals() {
-    }
+    public CountryCapitals() {}
 
     public CountryCapitalsId getId() {
         return id;

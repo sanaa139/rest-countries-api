@@ -15,8 +15,7 @@ public class CountryBorders {
         this.id = id;
     }
 
-    public CountryBorders() {
-    }
+    public CountryBorders() {}
 
     public CountryBordersId getId() {
         return id;

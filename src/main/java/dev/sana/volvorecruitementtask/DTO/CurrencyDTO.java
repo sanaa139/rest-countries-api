@@ -4,6 +4,14 @@ public class CurrencyDTO {
     private String name;
     private String symbol;
 
+    public CurrencyDTO(String name, String symbol) {
+        this.name = name;
+        this.symbol = symbol;
+    }
+
+    public CurrencyDTO() {
+    }
+
     public String getName() {
         return name;
     }

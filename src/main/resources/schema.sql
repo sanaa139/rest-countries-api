@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS country(
     id INT AUTO_INCREMENT NOT NULL,
     name_common VARCHAR(50) NOT NULL,
     name_official VARCHAR(50) NOT NULL,
+    cca3 VARCHAR(3) NOT NULL,
     region VARCHAR(50) NOT NULL,
     subregion VARCHAR(50) NOT NULL,
     population INT NOT NULL,
@@ -21,6 +22,7 @@ CREATE TABLE IF NOT EXISTS country_currencies(
     currency_id INT NOT NULL,
     FOREIGN KEY(country_id) REFERENCES country(id),
     FOREIGN KEY(currency_id) REFERENCES currency(id)
+
 );
 
 CREATE TABLE IF NOT EXISTS capital(

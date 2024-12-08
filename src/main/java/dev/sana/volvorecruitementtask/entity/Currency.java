@@ -1,5 +1,6 @@
 package dev.sana.volvorecruitementtask.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -9,13 +10,13 @@ import jakarta.persistence.Id;
 public class Currency {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonIgnore
     private Integer id;
     private String code;
     private String name;
     private String symbol;
 
-    public Currency() {
-    }
+    public Currency() {}
 
     public Currency(Integer id, String code, String name, String symbol) {
         this.id = id;
@@ -54,5 +55,15 @@ public class Currency {
 
     public void setCode(String code) {
         this.code = code;
+    }
+
+    @Override
+    public String toString() {
+        return "Currency{" +
+                "id=" + id +
+                ", code='" + code + '\'' +
+                ", name='" + name + '\'' +
+                ", symbol='" + symbol + '\'' +
+                '}';
     }
 }

@@ -4,6 +4,14 @@ public class NameDTO {
     private String common;
     private String official;
 
+    public NameDTO(String common, String official) {
+        this.common = common;
+        this.official = official;
+    }
+
+    public NameDTO() {
+    }
+
     public String getCommon() {
         return common;
     }

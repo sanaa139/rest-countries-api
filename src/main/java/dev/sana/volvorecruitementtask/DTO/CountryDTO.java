@@ -1,23 +1,25 @@
 package dev.sana.volvorecruitementtask.DTO;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class CountryDTO {
     private NameDTO name;
-    private Map<String, CurrencyDTO> currencies;
-    private List<String> capital;
+    private String cca3;
+    private Map<String, CurrencyDTO> currencies = new HashMap<>();
+    private List<String> capital = new ArrayList<>();
     private String region;
     private String subregion;
-    private Map<String, String> languages;
+    private Map<String, String> languages = new HashMap<>();
     private Integer population;
-    private List<String> borders;
-    private List<String> timezones;
+    private List<String> borders = new ArrayList<>();
+    private List<String> timezones = new ArrayList<>();
 
-    public CountryDTO(){}
-
-    public CountryDTO(NameDTO name, Map<String, CurrencyDTO> currencies, List<String> capital, String region, String subregion, Map<String, String> languages, Integer population, List<String> borders, List<String> timezones) {
+    public CountryDTO(NameDTO name, String cca3, Map<String, CurrencyDTO> currencies, List<String> capital, String region, String subregion, Map<String, String> languages, Integer population, List<String> borders, List<String> timezones) {
         this.name = name;
+        this.cca3 = cca3;
         this.currencies = currencies;
         this.capital = capital;
         this.region = region;
@@ -28,12 +30,24 @@ public class CountryDTO {
         this.timezones = timezones;
     }
 
+    public CountryDTO() {
+    }
+
+
     public NameDTO getName() {
         return name;
     }
 
     public void setName(NameDTO name) {
         this.name = name;
+    }
+
+    public String getCca3() {
+        return cca3;
+    }
+
+    public void setCca3(String cca3) {
+        this.cca3 = cca3;
     }
 
     public Map<String, CurrencyDTO> getCurrencies() {
@@ -104,6 +118,7 @@ public class CountryDTO {
     public String toString() {
         return "CountryDTO{" +
                 "name=" + name +
+                ", cca3='" + cca3 + '\'' +
                 ", currencies=" + currencies +
                 ", capital=" + capital +
                 ", region='" + region + '\'' +

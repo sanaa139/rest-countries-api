@@ -17,9 +17,7 @@ public class CountryCurrenciesId implements Serializable {
         this.currencyId = currencyId;
     }
 
-    public CountryCurrenciesId() {
-
-    }
+    public CountryCurrenciesId() {}
 
     public Integer getCountryId() {
         return countryId;

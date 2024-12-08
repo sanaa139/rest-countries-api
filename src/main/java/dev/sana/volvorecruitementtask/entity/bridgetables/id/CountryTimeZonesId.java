@@ -17,8 +17,7 @@ public class CountryTimeZonesId implements Serializable {
         this.timeZoneId = timeZoneId;
     }
 
-    public CountryTimeZonesId() {
-    }
+    public CountryTimeZonesId() {}
 
     public Integer getCountryId() {
         return countryId;

@@ -7,6 +7,5 @@ import org.springframework.data.repository.query.Param;
 import java.util.Optional;
 
 public interface LanguageRepository extends JpaRepository<Language, Integer> {
-    Optional<Language> findByName(@Param("name") String name);
     Optional<Language> findByCode(@Param("name") String code);
 }

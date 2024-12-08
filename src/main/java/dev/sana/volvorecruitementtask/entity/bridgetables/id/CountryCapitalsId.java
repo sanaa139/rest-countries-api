@@ -12,14 +12,12 @@ public class CountryCapitalsId implements Serializable {
     @Column(name = "capital_id")
     private Integer capitalId;
 
-
     public CountryCapitalsId(Integer countryId, Integer capitalId) {
         this.countryId = countryId;
         this.capitalId = capitalId;
     }
 
-    public CountryCapitalsId() {
-    }
+    public CountryCapitalsId() {}
 
     public Integer getCountryId() {
         return countryId;

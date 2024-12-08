@@ -15,8 +15,7 @@ public class CountryLanguages {
         this.id = id;
     }
 
-    public CountryLanguages() {
-    }
+    public CountryLanguages() {}
 
     public CountryLanguagesId getId() {
         return id;

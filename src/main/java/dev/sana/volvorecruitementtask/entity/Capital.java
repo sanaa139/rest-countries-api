@@ -1,5 +1,6 @@
 package dev.sana.volvorecruitementtask.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -9,6 +10,7 @@ import jakarta.persistence.Id;
 public class Capital {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonIgnore
     private Integer id;
     private String name;
 
@@ -17,9 +19,7 @@ public class Capital {
         this.name = name;
     }
 
-    public Capital() {
-
-    }
+    public Capital() {}
 
     public Integer getId() {
         return id;
@@ -35,5 +35,13 @@ public class Capital {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Capital{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

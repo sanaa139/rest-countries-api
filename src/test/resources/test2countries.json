@@ -1,0 +1,380 @@
+[
+  {
+    "name": {
+      "common": "Gibraltar",
+      "official": "Gibraltar",
+      "nativeName": {
+        "eng": {
+          "official": "Gibraltar",
+          "common": "Gibraltar"
+        }
+      }
+    },
+    "tld": [
+      ".gi"
+    ],
+    "cca2": "GI",
+    "ccn3": "292",
+    "cca3": "GIB",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "currencies": {
+      "GIP": {
+        "name": "Gibraltar pound",
+        "symbol": "£"
+      }
+    },
+    "idd": {
+      "root": "+3",
+      "suffixes": [
+        "50"
+      ]
+    },
+    "capital": [
+      "Gibraltar"
+    ],
+    "altSpellings": [
+      "GI"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "languages": {
+      "eng": "English"
+    },
+    "translations": {
+      "ara": {
+        "official": "جبل طارق",
+        "common": "جبل طارق"
+      },
+      "bre": {
+        "official": "Jibraltar",
+        "common": "Jibraltar"
+      },
+      "ces": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "cym": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "deu": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "est": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "fin": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "fra": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "hrv": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "hun": {
+        "official": "Gibraltár",
+        "common": "Gibraltár"
+      },
+      "ita": {
+        "official": "Gibilterra",
+        "common": "Gibilterra"
+      },
+      "jpn": {
+        "official": "ジブラルタル",
+        "common": "ジブラルタル"
+      },
+      "kor": {
+        "official": "지브롤터",
+        "common": "지브롤터"
+      },
+      "nld": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "per": {
+        "official": "جبل طارق",
+        "common": "جبل طارق"
+      },
+      "pol": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "por": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "rus": {
+        "official": "Гибралтар",
+        "common": "Гибралтар"
+      },
+      "slk": {
+        "official": "Gibraltár",
+        "common": "Gibraltár"
+      },
+      "spa": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "swe": {
+        "official": "Gibraltar",
+        "common": "Gibraltar"
+      },
+      "urd": {
+        "official": "جبل الطارق",
+        "common": "جبل الطارق"
+      },
+      "zho": {
+        "official": "直布罗陀",
+        "common": "直布罗陀"
+      }
+    },
+    "latlng": [
+      36.13333333,
+      -5.35
+    ],
+    "landlocked": false,
+    "borders": [
+      "ESP"
+    ],
+    "area": 6,
+    "demonyms": {
+      "eng": {
+        "f": "Gibraltar",
+        "m": "Gibraltar"
+      },
+      "fra": {
+        "f": "Gibraltarienne",
+        "m": "Gibraltarien"
+      }
+    },
+    "flag": "🇬🇮",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/1278736"
+    },
+    "population": 33691,
+    "fifa": "GIB",
+    "car": {
+      "signs": [
+        "GBZ"
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC+01:00"
+    ],
+    "continents": [
+      "Europe"
+    ],
+    "flags": [
+      "https://flagcdn.com/gi.svg",
+      "https://flagcdn.com/w320/gi.png"
+    ]
+  },
+  {
+    "name": {
+      "common": "Palestine",
+      "official": "State of Palestine",
+      "nativeName": {
+        "ara": {
+          "official": "دولة فلسطين",
+          "common": "فلسطين"
+        }
+      }
+    },
+    "tld": [
+      ".ps",
+      "فلسطين."
+    ],
+    "cca2": "PS",
+    "ccn3": "275",
+    "cca3": "PSE",
+    "cioc": "PLE",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "currencies": {
+      "EGP": {
+        "name": "Egyptian pound",
+        "symbol": "E£"
+      },
+      "ILS": {
+        "name": "Israeli new shekel",
+        "symbol": "₪"
+      },
+      "JOD": {
+        "name": "Jordanian dinar",
+        "symbol": "JD"
+      }
+    },
+    "idd": {
+      "root": "+9",
+      "suffixes": [
+        "70"
+      ]
+    },
+    "capital": [
+      "Ramallah"
+    ],
+    "altSpellings": [
+      "PS",
+      "Palestine, State of",
+      "State of Palestine",
+      "Dawlat Filasṭin"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "translations": {
+      "ara": {
+        "official": "دولة فلسطين",
+        "common": "فلسطين"
+      },
+      "bre": {
+        "official": "Stad Palestina",
+        "common": "Palestina"
+      },
+      "ces": {
+        "official": "Stát Palestina",
+        "common": "Palestina"
+      },
+      "cym": {
+        "official": "State of Palestine",
+        "common": "Palestine"
+      },
+      "deu": {
+        "official": "Staat Palästina",
+        "common": "Palästina"
+      },
+      "est": {
+        "official": "Palestiina Riik",
+        "common": "Palestiina"
+      },
+      "fin": {
+        "official": "Palestiinan valtio",
+        "common": "Palestiina"
+      },
+      "fra": {
+        "official": "État de Palestine",
+        "common": "Palestine"
+      },
+      "hrv": {
+        "official": "State of Palestine",
+        "common": "Palestina"
+      },
+      "hun": {
+        "official": "Palesztin Autonómia",
+        "common": "Palesztina"
+      },
+      "ita": {
+        "official": "Stato di Palestina",
+        "common": "Palestina"
+      },
+      "jpn": {
+        "official": "パレスチナ自治政府",
+        "common": "パレスチナ"
+      },
+      "kor": {
+        "official": "팔레스타인국",
+        "common": "팔레스타인"
+      },
+      "nld": {
+        "official": "Staat Palestina",
+        "common": "Palestijnse gebieden"
+      },
+      "per": {
+        "official": "دولت فلسطین",
+        "common": "فلسطین"
+      },
+      "pol": {
+        "official": "Państwo Palestyna",
+        "common": "Palestyna"
+      },
+      "por": {
+        "official": "Estado da Palestina",
+        "common": "Palestina"
+      },
+      "rus": {
+        "official": "Государство Палестина",
+        "common": "Палестина"
+      },
+      "slk": {
+        "official": "Palestínsky štát",
+        "common": "Palestína"
+      },
+      "spa": {
+        "official": "Estado de Palestina",
+        "common": "Palestina"
+      },
+      "swe": {
+        "official": "Palestina",
+        "common": "Palestina"
+      },
+      "urd": {
+        "official": "ریاستِ فلسطین",
+        "common": "فلسطین"
+      },
+      "zho": {
+        "official": "巴勒斯坦国",
+        "common": "巴勒斯坦"
+      }
+    },
+    "latlng": [
+      31.9,
+      35.2
+    ],
+    "landlocked": false,
+    "borders": [
+      "ISR",
+      "EGY",
+      "JOR"
+    ],
+    "area": 6220,
+    "demonyms": {
+      "eng": {
+        "f": "Palestinian",
+        "m": "Palestinian"
+      },
+      "fra": {
+        "f": "Palestinienne",
+        "m": "Palestinien"
+      }
+    },
+    "flag": "🇵🇸",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/QvTbkRdmdWEoYAmt5",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/1703814"
+    },
+    "population": 4803269,
+    "gini": {
+      "2016": 33.7
+    },
+    "fifa": "PLE",
+    "car": {
+      "signs": [
+        "PS"
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC+02:00"
+    ],
+    "continents": [
+      "Asia"
+    ],
+    "flags": [
+      "https://flagcdn.com/ps.svg",
+      "https://flagcdn.com/w320/ps.png"
+    ]
+  }
+]
