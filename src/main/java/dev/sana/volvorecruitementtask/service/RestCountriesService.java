@@ -13,7 +13,7 @@ import java.util.Map;
 
 @Service
 public class RestCountriesService {
-    private static final String RESTCOUNTRIES_URL = "https://restcountries.com/v3/alpha";
+    private static final String RESTCOUNTRIES_URL = "https://restcountries.com/v3.1/alpha";
 
 
     public Country getCountryFromRestApi(String cca3){
